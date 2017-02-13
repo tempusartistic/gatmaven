@@ -1,0 +1,20 @@
+
+			<div style="padding-top: 90px; " class="col-lg-6 ">
+
+
+					<img class="img-responsive " src="img/fondo.png " alt=" ">
+
+				</div><!-- /col-lg-6 -->
+
+				<div class="col-lg-6 " style="padding-top: 0px ">
+
+					<h2 style="color: white; " align="justify ">Un equipo con vocación
+					 de servicio e iniciativa propia. Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado del el hogar y la industria. </h2>
+					<form class="form-inline " role="form ">
+					  <div class="form-group ">
+					    <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Ej:direccion@empresa.coom ">
+					  </div>
+					  <button type="submit " class="btn btn-warning btn-sm ">¡Contactanos!</button>
+					</form>
+				</div><!-- /col-lg-6 -->
+

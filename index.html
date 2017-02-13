@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://www.gatmaven.com.ve">
+    <!-- YOUR URL -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Gatmaven">
+    <!-- EDIT -->
+    <meta property="og:description" content="Un equipo con vocación de servicio e iniciativa propia. Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado del el hogar y la industria.
+">
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:20:50">
+    <!-- EDIT -->
+    <meta property="og:image" content="assets/img/logogatmaven.png">
+    <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@gatmaven">
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="@tempusartistic">
+    <!-- EDIT -->
+    <meta name="twitter:title" content="Gatmaven ">
+    <!-- EDIT -->
+    <meta name="twitter:description " content="Un equipo con vocación de servicio e iniciativa propia. Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado
+        del el hogar y la industria. ">
+    <!-- EDIT -->
+    <meta name="twitter:image " content="assets/img/logogatmaven.png ">
+    <!-- EDIT -->
+
+
+    <link rel="shortcut icon " href="assets/img/favicon.png ">
+
+    <title>Gatmaven</title>
+    <link rel="shortcut icon " href="assets/img/favicon.ico ">
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="assets/css/bootstrap.css " rel="stylesheet ">-->
+
+    <link href="bootstrap.css " rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css " rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <link rel="apple-touch-icon " sizes="57x57 " href="assets/img/icon/apple-icon-57x57.png ">
+    <link rel="apple-touch-icon " sizes="60x60 " href="assets/img/icon/apple-icon-60x60.png ">
+    <link rel="apple-touch-icon " sizes="72x72 " href="assets/img/icon/apple-icon-72x72.png ">
+    <link rel="apple-touch-icon " sizes="76x76 " href="assets/img/icon/apple-icon-76x76.png ">
+    <link rel="apple-touch-icon " sizes="114x114 " href="assets/img/icon/apple-icon-114x114.png ">
+    <link rel="apple-touch-icon " sizes="120x120 " href="assets/img/icon/apple-icon-120x120.png ">
+    <link rel="apple-touch-icon " sizes="144x144 " href="assets/img/icon/apple-icon-144x144.png ">
+    <link rel="apple-touch-icon " sizes="152x152 " href="assets/img/icon/apple-icon-152x152.png ">
+    <link rel="apple-touch-icon " sizes="180x180 " href="assets/img/icon/apple-icon-180x180.png ">
+    <link rel="icon " type="image/png " sizes="192x192 " href="assets/img/icon/android-icon-192x192.png ">
+    <link rel="icon " type="image/png " sizes="32x32 " href="assets/img/icon/favicon-32x32.png ">
+    <link rel="icon " type="image/png " sizes="96x96 " href="assets/img/icon/favicon-96x96.png ">
+    <link rel="icon " type="image/png " sizes="16x16 " href="assets/img/icon/favicon-16x16.png ">
+    <link rel="manifest " href="assets/img/icon/manifest.json ">
+    <meta name="msapplication-TileColor " content="#ffffff ">
+    <meta name="msapplication-TileImage " content="assets/img/icon/ms-icon-144x144.png ">
+    <meta name="theme-color " content="#ffffff ">
+
+    <script src="angular/angular.min.js" type="text/javascript"></script>
+    <script src="angular/angular-route.min.js" type="text/javascript"></script>
+
+    <style>
+        .carousel .item {
+            padding: 0;
+            margin: 0;
+            s width: 100%;
+            max-height: 100%;
+        }
+        
+        .carousel .item img {
+            width: 100%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="row">
+        <div ng-include="'menu.html'" style="padding-bottom: 0px; margin: 0px;"></div>
+    </div>
+
+
+    <div id="headerwrap ">
+
+        <div class="row">
+            <div ng-include="'carrousel.html'" style="padding: 0px;"></div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+    </div>
+    <!-- /headerwrap -->
+
+    <!-- Porafolio de productos -->
+
+    <div class="container " id="presenta ">
+        <div class="row mt centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <h1>Portafolio<br/>de presentación</h1>
+                <h3>Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado del el hogar y la industria.</h3>
+            </div>
+        </div>
+        <!-- /row -->
+        <div ng-include="'portafolio.html'">
+
+        </div>
+
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+    <!-- /portafolio -->
+
+
+    <div class="container ">
+        <hr>
+        <div class="row centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <form class="form-inline " role="form ">
+                    <div class="form-group ">
+                        <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Escriba su correo ">
+                    </div>
+                    <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
+                </form>
+            </div>
+            <div class="col-lg-3 "></div>
+        </div>
+        <!-- /row -->
+        <hr>
+    </div>
+    <!-- /container -->
+    <!-- Bloque Cuidado del Hogar -->
+
+    <div class="row ">
+        <hr>
+    </div>
+
+    <div class="container " id="pproductos ">
+        <div class="row mt centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <h1>Cuidados del hogar</h1>
+                <h3>Desinfectantes, <a href="#cera ">Cera</a>, <a href="#jabon ">Jabón líquido</a>, <a href="#cloro ">Cloro</a>, <a href="#nuevos ">Nuevos Productos</a>, <a href="#otros ">Otros productos</a>.</h3>
+            </div>
+        </div>
+        <!-- /row -->
+
+        <!-- Bloque sobre los productos de cuidado para el hogar -->
+
+        <!-- Productos desifectantes -->
+        <! -- CAROUSEL -->
+        <div class="row mt centered " id="desifectantes ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/antibacterial/bebe.png" alt=" ">
+                        </div>
+                        <div class="item ">
+                            <img src="assets/img/p02.png " alt=" ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-6 ">
+
+                <h1> Descripcion de los productos Desinfectantes</h1>
+
+            </div>
+
+
+
+        </div>
+        <!-- /col-lg-8 -->cera
+
+        <div class="row " id="cera ">
+            <hr>
+        </div>
+
+        <!-- fin productos desifectantes -->
+
+
+        <!--Productos de  Cera para piso -->
+
+        <! -- CAROUSEL -->
+
+        <div class="col-lg-6 ">
+
+            <h1>Descripcion del productos Cera</h1>
+
+        </div>
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/antibacterial/bebe.png" alt=" ">
+                        </div>
+                        <div class="item ">
+                            <img src="assets/img/p02.png " alt=" ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- Fin de Cera para piso /col-lg-8 -->
+        <div class="row " id="jabon ">
+            <hr>
+        </div>
+
+        <!-- Producto de jabon liquido -->
+
+
+        <! -- CAROUSEL -->
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/antibacterial/bebe.png" alt=" ">
+                        </div>
+                        <div class="item ">
+                            <img src="assets/img/p02.png " alt=" ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-6 ">
+
+                <h1> Descripcion de los productos Jabón líquido</h1>
+
+            </div>
+
+
+
+        </div>
+        <!-- fin de producto jabom liquido /col-lg-8 -->
+        <div class="row " id="nuevos ">
+            <hr>
+        </div>
+
+        <!-- Productos Nuevos -->
+
+        <! -- CAROUSEL -->
+
+        <div class="col-lg-6 ">
+
+            <h1>Descripcion del productos Cloro</h1>
+
+        </div>
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/antibacterial/bebe.png" alt=" ">
+                        </div>
+                        <div class="item ">
+                            <img src="assets/img/p02.png " alt=" ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- fin de productos nuevos /col-lg-8 -->
+        <div class="row " id="otros " ng-show="activo">
+            <hr>
+        </div>
+
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/antibacterial/bebe.png" alt=" ">
+                        </div>
+                        <div class="item ">
+                            <img src="assets/img/p02.png " alt=" ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-6 ">
+
+                <h1> Descripcion de las presentaciones otros espacios</h1>
+
+            </div>
+
+
+
+        </div>
+        <!-- /col-lg-8 -->
+
+        <!-- Fin del bloque cuidados del hogar -->
+
+
+    </div>
+    <!-- /row -->Invite Me!
+    </div>
+    <! --/container -->
+
+    <div class="container ">
+        <hr>
+        <div class="row centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <form class="form-inline " rolid="cera " <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
+                </form>
+            </div>
+            <div class="col-lg-3 "></div>
+        </div>
+        <!-- /row -->
+        <hr>
+    </div>
+    <!-- /container -->
+
+    <div class="container ">
+        <div class="row mt centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <h1>Nos encontramos <br/>a nivel nacional</h1>
+                <h3>Iniciamos nuestra distribución en tres Estado de la Republica Bolivariana de Venezuela, eso son:</h3>
+            </div>
+        </div>
+        <!-- /row -->
+
+        <div class="row mt centered ">
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="assets/img/pic1.jpg " width="140 " alt=" ">
+                <h4>Carabobo</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
+            </div>
+            <!--/col-lg-4 -->
+
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="assets/img/pic2.jpg " width="140 " alt=" ">
+                <h4>Yaracuy</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
+            </div>
+            <!--/col-lg-4 -->
+
+            <div class="col-lg-4 ">
+                <img class="img-circle " src="assets/img/pic3.jpg " width="140 " alt=" ">
+                <h4>Falcón</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
+            </div>
+            <!--/col-lg-4 -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+
+    <div class="container " id="contacto ">
+        <hr>
+        <div class="row centered ">
+            <div class="col-lg-6 col-lg-offset-3 ">
+                <form class="form-inline " role="form ">
+                    <div class="form-group ">
+                        <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Enter your email address ">
+                    </div>
+                    <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
+                </form>
+            </div>
+            <div class="col-lg-3 "></div>
+        </div>
+        <!-- /row -->
+        <hr>
+        <p class="centered "><b>Elaborado por:</b> Tempus Artis TIC <br><b>Twitter:</b> @tempusartistic <br><b>Email:</b> tempusartistic@gmail.com <br>Venezuela 2017</p>
+    </div>
+    <!-- /container -->
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+</body>
+
+</html>
