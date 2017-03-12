@@ -28,19 +28,19 @@
     <!-- EDIT -->
     <meta name="twitter:creator" content="@tempusartistic">
     <!-- EDIT -->
-    <meta name="twitter:title" content="Gatmaven ">
+    <meta name="twitter:title" content="Gatmaven">
     <!-- EDIT -->
-    <meta name="twitter:description " content="Un equipo con vocación de servicio e iniciativa propia. Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado
-        del el hogar y la industria. ">
+    <meta name="twitter:description" content="Un equipo con vocación de servicio e iniciativa propia. Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado
+        del el hogar y la industria.">
     <!-- EDIT -->
-    <meta name="twitter:image " content="assets/img/logogatmaven.png ">
+    <meta name="twitter:image " content="assets/img/logogatmaven.png">
     <!-- EDIT -->
 
 
-    <link rel="shortcut icon " href="assets/img/favicon.png ">
+    <link rel="shortcut icon " href="assets/img/favicon.png">
 
     <title>Gatmaven</title>
-    <link rel="shortcut icon " href="assets/img/favicon.ico ">
+    <link rel="shortcut icon " href="assets/img/favicon.ic">
 
     <!-- Bootstrap core CSS -->
     <!--<link href="assets/css/bootstrap.css " rel="stylesheet ">-->
@@ -51,30 +51,40 @@
     <link href="assets/css/main.css " rel="stylesheet">
 
     <!-- Fonts from Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href='assets/css/font.css' rel='stylesheet' type='text/css'>
 
-    <link rel="apple-touch-icon " sizes="57x57 " href="assets/img/icon/apple-icon-57x57.png ">
-    <link rel="apple-touch-icon " sizes="60x60 " href="assets/img/icon/apple-icon-60x60.png ">
-    <link rel="apple-touch-icon " sizes="72x72 " href="assets/img/icon/apple-icon-72x72.png ">
-    <link rel="apple-touch-icon " sizes="76x76 " href="assets/img/icon/apple-icon-76x76.png ">
-    <link rel="apple-touch-icon " sizes="114x114 " href="assets/img/icon/apple-icon-114x114.png ">
-    <link rel="apple-touch-icon " sizes="120x120 " href="assets/img/icon/apple-icon-120x120.png ">
-    <link rel="apple-touch-icon " sizes="144x144 " href="assets/img/icon/apple-icon-144x144.png ">
-    <link rel="apple-touch-icon " sizes="152x152 " href="assets/img/icon/apple-icon-152x152.png ">
-    <link rel="apple-touch-icon " sizes="180x180 " href="assets/img/icon/apple-icon-180x180.png ">
+    <link rel="apple-touch-icon " sizes="57x57 " href="assets/img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon " sizes="60x60 " href="assets/img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon " sizes="72x72 " href="assets/img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon " sizes="76x76 " href="assets/img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon " sizes="114x114 " href="assets/img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon " sizes="120x120 " href="assets/img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon " sizes="144x144 " href="assets/img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon " sizes="152x152 " href="assets/img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon " sizes="180x180 " href="assets/img/icon/apple-icon-180x180.png">
     <link rel="icon " type="image/png " sizes="192x192 " href="assets/img/icon/android-icon-192x192.png ">
-    <link rel="icon " type="image/png " sizes="32x32 " href="assets/img/icon/favicon-32x32.png ">
-    <link rel="icon " type="image/png " sizes="96x96 " href="assets/img/icon/favicon-96x96.png ">
-    <link rel="icon " type="image/png " sizes="16x16 " href="assets/img/icon/favicon-16x16.png ">
-    <link rel="manifest " href="assets/img/icon/manifest.json ">
-    <meta name="msapplication-TileColor " content="#ffffff ">
-    <meta name="msapplication-TileImage " content="assets/img/icon/ms-icon-144x144.png ">
-    <meta name="theme-color " content="#ffffff ">
+    <link rel="icon " type="image/png " sizes="32x32 " href="assets/img/icon/favicon-32x32.p">
+    <link rel="icon " type="image/png " sizes="96x96 " href="assets/img/icon/favicon-96x96.p">
+    <link rel="icon " type="image/png " sizes="16x16 " href="assets/img/icon/favicon-16x16.p">
+    <link rel="manifest " href="assets/img/icon/manifest.jso">
+    <meta name="msapplication-TileColor " content="#ffffff">
+    <meta name="msapplication-TileImage " content="assets/img/icon/ms-icon-144x144.png">
+    <meta name="theme-color " content="#ffffff">
 
     <script src="angular/angular.min.js" type="text/javascript"></script>
     <script src="angular/angular-route.min.js" type="text/javascript"></script>
 
     <style>
+            .colorText {
+            color: #29A1E6;
+        }
+        
+        h1,
+        h3,
+        p {
+            color: #29A1E6;
+        }
+        
         .carousel .item {
             padding: 0;
             margin: 0;
@@ -85,7 +95,54 @@
         .carousel .item img {
             width: 100%;
         }
+        
+        #eslogan {}
+        
+        .css_animation {
+            -webkit-animation: cssAnimation 1s 1 linear;
+            -moz-animation: cssAnimation 1s 1 linear;
+            -o-animation: cssAnimation 1s 1 linear;
+        }
+        
+        @-webkit-keyframes cssAnimation {
+            from {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+            }
+            to {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+            }
+        }
+        
+        @-moz-keyframes cssAnimation {
+            from {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+            }
+            to {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+            }
+        }
+        
+        @-o-keyframes cssAnimation {
+            from {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(-269px);
+            }
+            to {
+                -webkit-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -moz-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+                -o-transform: rotate(0deg) scale(1.038) skew(0deg) translate(6px);
+            }
     </style>
+
 
 
 </head>
@@ -109,11 +166,11 @@
 
     <!-- Porafolio de productos -->
 
-    <div class="container " id="presenta ">
+    <div class="container " id="presenta">
         <div class="row mt centered ">
-            <div class="col-lg-6 col-lg-offset-3 ">
+            <div class="col-lg-6 col-lg-offset-3">
                 <h1>Portafolio<br/>de presentación</h1>
-                <h3>Con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo; fabricación de productos para el cuidado del el hogar y la industria.</h3>
+                <h3> Un equipo con más de 10 años de experiencia en el área de productos químicos, importación, mercado de productos de consumo masivo, fabricación de productos para el cuidado del el hogar y la industria.</h3>
             </div>
         </div>
         <!-- /row -->
@@ -130,12 +187,16 @@
     <div class="container ">
         <hr>
         <div class="row centered ">
-            <div class="col-lg-6 col-lg-offset-3 ">
+            <div class="col-lg-6 col-lg-offset-3">
                 <form class="form-inline " role="form ">
                     <div class="form-group ">
                         <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Escriba su correo ">
                     </div>
-                    <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
+                    <button type="submit" class="btn btn-warning btn-lg">Contactame!</button>
+                    <!-- Button trigger modal -->
+
+
+
                 </form>
             </div>
             <div class="col-lg-3 "></div>
@@ -150,11 +211,11 @@
         <hr>
     </div>
 
-    <div class="container " id="pproductos ">
+    <div class="container" id="ppproductos">
         <div class="row mt centered ">
-            <div class="col-lg-6 col-lg-offset-3 ">
-                <h1>Cuidados del hogar</h1>
-                <h3>Desinfectantes, <a href="#cera ">Cera</a>, <a href="#jabon ">Jabón líquido</a>, <a href="#cloro ">Cloro</a>, <a href="#nuevos ">Nuevos Productos</a>, <a href="#otros ">Otros productos</a>.</h3>
+            <div class="col-lg-6 col-lg-offset-3">
+                <h1 class="colorText">Cuidados del hogar</h1>
+                <h3 class="colorText">Multiuso Antibacterial, <a href="#cera">Cera</a>, <a href="#jabon">Jabón líquido</a>, <a href="#cloro">Cloro</a>, <a href="#nuevos">Nuevos Productos</a>, <a href="#otros ">Otros productos</a>.</h3>
             </div>
         </div>
         <!-- /row -->
@@ -163,23 +224,41 @@
 
         <!-- Productos desifectantes -->
         <! -- CAROUSEL -->
-        <div class="row mt centered " id="desifectantes ">
+        <div class="row mt centered" id="desifectantes">
             <div class="col-lg-6 ">
-                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators ">
-                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class="item active ">
-                            <img src="img/antibacterial/bebe.png" alt=" ">
+                    <div class="carousel-inner">
+
+
+
+                        <div class="item active">
+                            <img src="img/antibacterial/1-3.png" alt=" ">
                         </div>
+
                         <div class="item ">
-                            <img src="assets/img/p02.png " alt=" ">
+                            <img src="img/antibacterial/2-3.png" alt=" ">
+                        </div>
+
+                        <div class="item ">
+                            <img src="img/antibacterial/3-3.png" alt=" ">
+                        </div>
+
+                        <div class="item ">
+                            <img src="img/antibacterial/4-4.png" alt=" ">
+                        </div>
+
+                        <div class="item ">
+                            <img src="img/antibacterial/5-4.png" alt=" ">
                         </div>
                     </div>
 
@@ -188,18 +267,24 @@
 
 
 
-            <div class="col-lg-6 ">
+            <div class="col-lg-6">
 
-                <h1> Descripcion de los productos Desinfectantes</h1>
+                <h1 class="colorText"> Descripción de los productos: Multiuso Antibacterial </h1>
+                <p class="colorText"><b>Limpia y desinfecta, fragancia de larga duración PH Neutro</b></p>
+                <p class="colorText"><b>Pisos y Superficie</b></p>
+                <p class="colorText"><b>Presentación: 1 Litro, Galón, Bidón 20 Lt., Tambor 200 Lt</b></p>
+
+                <br>
+                <a href="multiuso.html" class="btn btn-info">Ver catálogo</a>
 
             </div>
 
 
 
         </div>
-        <!-- /col-lg-8 -->cera
+        <!-- /col-lg-8 -->
 
-        <div class="row " id="cera ">
+        <div class="row" id="otro">
             <hr>
         </div>
 
@@ -210,43 +295,43 @@
 
         <! -- CAROUSEL -->
 
-        <div class="col-lg-6 ">
+        <div class="col-lg-6" align="center" id="cloro">
 
-            <h1>Descripcion del productos Cera</h1>
+            <h1 class="colorText">Descripción del producto: Cloro jabonoso</h1>
+            <p class="colorText">
+                <b>Diseñado para la desinfección de áreas, superficies y limpieza de ropas tanto del hogar como a nivel hospitalario y salud. Actúa por el cloro que libera con un rendimiento muy alto según beneficio - costo. Es un utilizador de todo tipo de virus, bacterias,
+                hongos y levaduras. Recomendado para limpieza profunda de áreas comunes. Ligeramente jabonoso</b></p>
+            <p class="colorText"><b>Presentación: 1 Litro, Galón 3.785Lt</b> </p>
+            <a href="cloro.html" class="btn btn-info">Ver catálogo</a>
 
         </div>
-        <div class="row mt centered ">
-            <div class="col-lg-6 ">
-                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+        <div class="row mt centered">
+            <div class="col-lg-6">
+                <div id="carousel-example-generi" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators ">
-                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class="item active ">
-                            <img src="img/antibacterial/bebe.png" alt=" ">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/cloro/cloroUltra.png" alt=" ">
                         </div>
                         <div class="item ">
-                            <img src="assets/img/p02.png " alt=" ">
+                            <img src="img/cloro/cloroJabonoso.png" alt=" ">
                         </div>
+
+
                     </div>
 
                 </div>
             </div>
 
-
-
-
-
-
-
         </div>
         <!-- Fin de Cera para piso /col-lg-8 -->
-        <div class="row " id="jabon ">
+        <div class="row " id="jabon">
             <hr>
         </div>
 
@@ -256,22 +341,22 @@
         <! -- CAROUSEL -->
         <div class="row mt centered ">
             <div class="col-lg-6 ">
-                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                <div id="carousel-example-generi" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators ">
-                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+
+
                     </ol>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner ">
-                        <div class="item active ">
-                            <img src="img/antibacterial/bebe.png" alt=" ">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/jabonliquido/jabonLiquido1.png" alt=" ">
                         </div>
-                        <div class="item ">
-                            <img src="assets/img/p02.png " alt=" ">
-                        </div>
+
+
+
                     </div>
 
                 </div>
@@ -281,14 +366,24 @@
 
             <div class="col-lg-6 ">
 
-                <h1> Descripcion de los productos Jabón líquido</h1>
-
+                <h1> Descripción de los productos Jabón líquido</h1>
+                <p>Limpiador líquido espumante desinfectante con fragancia, diseñado para la limpieza en general. Gracias a sus componentes especiales y efecto espumante jabonoso, es de fácil</p>
+                <p>Presentación:1 Lt. Galón 3.785 Lts.</p>
+                <a href="jabonliquido.html" class="btn btn-info">Ver catálogo</a>
             </div>
 
 
 
         </div>
         <!-- fin de producto jabom liquido /col-lg-8 -->
+
+
+
+
+
+
+
+
         <div class="row " id="nuevos ">
             <hr>
         </div>
@@ -299,7 +394,10 @@
 
         <div class="col-lg-6 ">
 
-            <h1>Descripcion del productos Cloro</h1>
+            <h1>Descripción del producto Sellador para pisos</h1>
+
+
+            <a href="sellador.html" class="btn btn-info">Ver catálogo</a>
 
         </div>
         <div class="row mt centered ">
@@ -308,92 +406,179 @@
                     <!-- Indicators -->
                     <ol class="carousel-indicators ">
                         <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner ">
                         <div class="item active ">
-                            <img src="img/antibacterial/bebe.png" alt=" ">
+                            <img src="img/sellador/1-1.png" alt=" ">
                         </div>
-                        <div class="item ">
-                            <img src="assets/img/p02.png " alt=" ">
-                        </div>
+
                     </div>
 
                 </div>
             </div>
 
-
-
-
-
-
-
         </div>
         <!-- fin de productos nuevos /col-lg-8 -->
+        <div class="row " id="nuevos ">
+            <hr>
+        </div>
+
+        <!--Reparador de Tela-->
+        <! -- CAROUSEL -->
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generi" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/restaurador/1-1.png" alt=" ">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 ">
+
+                <h1> Descripción de los productos Reparador de Tela (Suavizante) Bebé</h1>
+                <p> Suaviza y proteje la ropa delicada, fragancia de larga duración</p>
+                <p>Presentación:1 Lt, Galón 3.785 Lts. Bidón 20 Lts, Tambor 200 Lts</p>
+                <a href="restaurador.html" class="btn btn-info">Ver catálogo</a>
+            </div>
+
+        </div>
+
+
+        <!--fin de reparador de tela-->
+        <hr>
+        <!--Quita grasas  -->
+        <! -- CAROUSEL -->
+
+        <div class="col-lg-6 " align="center">
+
+            <h1>Descripción del producto Quita grasas para vajillas (Lavaplatos)</h1>
+            <p>Limpia y desengrasa. Protege sus manos. PH Neutro Vajillas, Platos y superficies</p>
+            <p>Presentación:1 Lt, Galón 3.785 Lts. Bidón 20 Lts, Tambor 200 Lts</p>
+            <a href="quitagrasa.html" class="btn btn-info">Ver catálogo</a>
+
+        </div>
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators ">
+                        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <img src="img/quitagrasa/quitagrasaV.png" alt=" ">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+        <!--Fin de quita grasas -->
+
+
+
         <div class="row " id="otros " ng-show="activo">
             <hr>
         </div>
 
+
+        <! -- CAROUSEL -->
+        <div class="row mt centered ">
+            <div class="col-lg-6 ">
+                <div id="carousel-example-generi" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/jabonliquido/javonLiquido.png" alt=" ">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 ">
+
+                <h1> Detergente Líquido para la Ropa</h1>
+                <p> Alto poder de detergencia. Alta duración. PH Neutro</p>
+                <p>Presentación:1 Lt, Galón 3.785 Lts. Bidón 20 Lts, Tambor 200 Lts</p>
+                <p>Floral, lavanda y Brisas de Verano</p>
+                <a href="detergenteLiquido.html" class="btn btn-info">Ver catálogo</a>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <!--Desengrasante Multiuso-->
+        <! -- CAROUSEL -->
+
+        <div class="col-lg-6 " align="center">
+
+            <h1>Descripción del producto Desegrasante Multiuso</h1>
+            <p>Utilizado en Cocinas, motores y superficie grasa</p>
+            <p>Presentación:1 Lt, Galón 3.785 Lts. Bidón 20 Lts, Tambor 200 Lts</p>
+            <a href="desengrasante.html" class="btn btn-info">Ver catálogo</a>
+
+        </div>
         <div class="row mt centered ">
             <div class="col-lg-6 ">
                 <div id="carousel-example-generic " class="carousel slide " data-ride="carousel ">
                     <!-- Indicators -->
                     <ol class="carousel-indicators ">
                         <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-                        <li data-target="#carousel-example-generic " data-slide-to="2 "></li>
+
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner ">
                         <div class="item active ">
-                            <img src="img/antibacterial/bebe.png" alt=" ">
+                            <img src="img/desengrasante/desengrazante.png" alt=" ">
                         </div>
-                        <div class="item ">
-                            <img src="assets/img/p02.png " alt=" ">
-                        </div>
+
                     </div>
 
                 </div>
             </div>
 
-
-
-            <div class="col-lg-6 ">
-
-                <h1> Descripcion de las presentaciones otros espacios</h1>
-
-            </div>
-
-
-
         </div>
-        <!-- /col-lg-8 -->
-
-        <!-- Fin del bloque cuidados del hogar -->
-
-
     </div>
-    <!-- /row -->Invite Me!
-    </div>
-    <! --/container -->
 
-    <div class="container ">
-        <hr>
-        <div class="row centered ">
-            <div class="col-lg-6 col-lg-offset-3 ">
-                <form class="form-inline " rolid="cera " <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
-                </form>
-            </div>
-            <div class="col-lg-3 "></div>
-        </div>
-        <!-- /row -->
-        <hr>
-    </div>
-    <!-- /container -->
+    <hr>
+    <!--fin Desengrasante Multiuso -->
+
+
+    <!-- /container de la presentacion de los productos -->
+
+
 
     <div class="container ">
         <div class="row mt centered ">
@@ -406,7 +591,7 @@
 
         <div class="row mt centered ">
             <div class="col-lg-4 ">
-                <img class="img-circle " src="assets/img/pic1.jpg " width="140 " alt=" ">
+                <img class="img-circle " src="img/mapa/carabobo.png" width="140 " alt=" ">
                 <h4>Carabobo</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
                 <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
@@ -414,16 +599,16 @@
             <!--/col-lg-4 -->
 
             <div class="col-lg-4 ">
-                <img class="img-circle " src="assets/img/pic2.jpg " width="140 " alt=" ">
-                <h4>Yaracuy</h4>
+                <img class="img-circle " src="img/mapa/falcon.png" width="140 " alt=" ">
+                <h4>Falcón</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
                 <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
             </div>
             <!--/col-lg-4 -->
 
             <div class="col-lg-4 ">
-                <img class="img-circle " src="assets/img/pic3.jpg " width="140 " alt=" ">
-                <h4>Falcón</h4>
+                <img class="img-circle " src=" img/mapa/yaracuy.png " width="140 " alt=" ">
+                <h4>Yaracuy</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
                 <p><i class="glyphicon glyphicon-send "></i> <i class="glyphicon glyphicon-phone "></i> <i class="glyphicon glyphicon-globe "></i></p>
             </div>
@@ -439,7 +624,7 @@
             <div class="col-lg-6 col-lg-offset-3 ">
                 <form class="form-inline " role="form ">
                     <div class="form-group ">
-                        <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Enter your email address ">
+                        <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Coloca tu email ">
                     </div>
                     <button type="submit " class="btn btn-warning btn-lg ">Contactame!</button>
                 </form>
@@ -454,6 +639,253 @@
 
 
 
+    <!-- Inicio de la informacion modal-->
+
+
+    <!-- Modal Historia-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"> <img width="70%" src="assets/img/gatmaven.png" alt=""></h1>
+                    <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Historia</h1> <br>
+                    <p align="justify">GATMAVEN C.A. es una empresa joven fundada con capital venezolano, la integran un equipo multidisciplinario de profesionales, con más de 10 años de experiencia en las áreas de química, importación, mercado de productos de consumo masivo;
+                        fabricación de productos para el cuidado del hogar y la industria a través de su marca Valdiss, así como la comercialización en mercados altamente competitivos. La familia GATMAVEN, la integra un equipo humano con vocación de servicio
+                        e iniciativa propia, dando lo mejor de sí para el logro de metas comunes, con un claro sentido de responsabilidad y humildad, garantizando una actuación exitosa y el seguro liderazgo de sus productos y posicionamiento de su marca
+                        Valdiss en estas competidas categorías. Actualmente GATMAVEN mantiene relaciones de negocios con un creciente número de aliados comerciales en las áreas de distribución y comercialización de productos de consumo masivo, dentro
+                        y fuera del País; sin embargo a partir del 2015 incursiona en nuevas líneas de negocio orientadas a el consumo institucional, apoyo y asesoría a nuevos emprendedores, impulso al crecimiento de pequeñas y mediana unidades de negocios.
+                        Nuestros productos son referentes de salud, bienestar y practicidad; y por ello contribuyen a optimizar la calidad de vida de la gente</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--fin del modal-->
+
+
+
+    <!--Mision de Gatmaven modal-->
+    <div class="modal fade" id="mision" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Misión</h1><br>
+                    <p align="justify"> La misión de GATMAVEN empieza y termina en los consumidores, porque ponemos toda nuestra pasión en detectar y satisfacer sus necesidades, contribuyendo a optimizar la calidad de vida de la gente en armonía con el planeta.</p>
+                    <br>
+                    <h1>Visión</h1>
+                    <br>
+                    <p>Contribuir con el mejoramiento de la calidad de vida de la familia, permitiendo así que nuestra gente, nuestros clientes y las comunidades en las que vivimos y trabajamos prosperen.
+                    </p>
+
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--fin de la Mision Modal-->
+
+
+    <!--Innovación Modal -->
+    <div class="modal fade" id="innovacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Innovación</h1><br>
+                    <p align="justify"> Sabemos que las decisiones que tomamos tienen un impacto significativo en las personas, en el planeta y en las comunidades; es por ello que continuamente reforzamos nuestro compromiso enfocándonos en la innovación, investigación y
+                        desarrollo de productos, aplicando modernas fórmulas bajo un enfoque ecológico y así satisfacer las necesidades de nuestros consumidores, mejorando la calidad de vida. </p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fin de innovación Modal-->
+
+
+
+
+    <!--Proveedores modal-->
+    <div class="modal fade" id="proveedores" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Proveedores</h1><br>
+                    <p align="justify"> Este espacio fue creado para usted, socio nuevo o actual, para entender la relación de GATMAVEN con sus proveedores. En GATMAVEN, la satisfacción de nuestros clientes es el resultado de alianzas bien consolidadas, incluyendo la relación
+                        que mantenemos con nuestros aliados comerciales. GATMAVEN se reserva el derecho de seleccionar los proveedores que mejor se ajusten a nuestras necesidades de negocio, centrándose en calidad, precio, estrategia y cumplimiento con
+                        los requerimientos comerciales y jurídicos, además de cumplir con nuestro Código de Conducta de Proveedores.</p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--gerencia modal-->
+    <div class="modal fade" id="gerencia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Gerencia lo que compramos</h1><br>
+                    <p align="justify"> Este espacio fue creado para usted, socio nuevo o actual, para entender la relación de GATMAVEN con sus proveedores. En GATMAVEN, la satisfacción de nuestros clientes es el resultado de alianzas bien consolidadas, incluyendo la relación
+                        que mantenemos con nuestros aliados comerciales. GATMAVEN se reserva el derecho de seleccionar los proveedores que mejor se ajusten a nuestras necesidades de negocio, centrándose en calidad, precio, estrategia y cumplimiento con
+                        los requerimientos comerciales y jurídicos, además de cumplir con nuestro Código de Conducta de Proveedores.</p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de Gerencia -->
+
+    <!--Codigo de conducta modal
+-->
+
+    <div class="modal fade" id="codigo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Código de conducta del proveedor</h1><br>
+                    <p align="justify"> GATMAVEN espera que sus proveedores conduzcan sus negocios de manera social y ambientalmente responsable, con integridad, ética y transparencia, tratando a sus empleados de una manera digna y respetuosa, al igual que a las comunidades
+                        donde realizan sus operaciones. Siendo así, les solicitamos a los proveedores que se apeguen a los términos y condiciones del Código de Conducta de Proveedores.</p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--convertirse en proveedor -->
+    <div class="modal fade" id="convertirse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>¿Cómo convertirse en proveedor?</h1><br>
+                    <p align="justify"> GATMAVEN busca más que un proveedor, busca aliados que cubran sus necesidades operacionales dentro de los criterios legales y de acuerdo con los principios éticos, responsabilidad ambiental y ética comercial establecidos en el Código
+                        de Conducta de Proveedores. Como aliados, esperamos que el proveedor también fomente el desarrollo de innovaciones para que juntos podamos promover la excelencia operativa. Entre en contacto con el departamento a través del correo
+                        electrónico . <a href="mailto:Gatmaven.ContactoProveedores@gmail.com ">Gatmaven.ContactoProveedores@gmail.com</a> Agradecemos el interés y esperamos formar una alianza exitosa.</p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--fin de proveeores modal-->
+
+
+    <!--inicia tu propio negocio-->
+
+    <div class="modal fade" id="tupropionegocio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel"><img width="70%" src="assets/img/gatmaven.png" alt="" </h1>
+                        <button type="button" class="close btn-info" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h1>Inicia tu Propio Negocio</h1><br>
+                    <p align="justify"> Amigo emprendedor construye con nosotros la oportunidad de un futuro sólido siendo dueño de tu propio negocio a través de la venta directa a los consumidores. Regístra tus datos en nuestro formulario unidades-de-negocio y envíalo a
+                        nuestro correo.
+                        <a href="mailto:Gatmaven.ContactoProveedores@gmail.com ">Gatmaven.ContactoProveedores@gmail.com</a>. También puedes comunicarte con nuestros asesores a través de nuestros teléfonos CONTACTANOS.
+
+
+
+                    </p>
+                </div>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin de inicia tu propio negocio-->
 
 
 
